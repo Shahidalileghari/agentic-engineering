@@ -1,0 +1,2 @@
+# RAG and knowledge agents
+Pipeline: ingest -> parse -> chunk -> embed -> index -> retrieve -> filter/rerank -> provide evidence -> generate -> validate/cite. Evaluate retrieval separately from answer quality. Apply authorization filters before content reaches the model. Preserve provenance/versioning and support deletion through source files, chunks, embeddings, and caches. RAG does not guarantee truth.

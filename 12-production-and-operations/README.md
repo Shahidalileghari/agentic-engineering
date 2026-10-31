@@ -1,0 +1,2 @@
+# Production and operations
+Design provider adapters, queues, async execution, streaming, persistence, rate limits, circuit breakers, retry budgets, idempotency, caching, fallbacks, and rollback. Track latency by step, success/failure, tool/provider errors, token usage, cost, and approval rates. Define SLOs and incident procedures. Pin dependencies/model versions, review licenses, and keep a kill switch.

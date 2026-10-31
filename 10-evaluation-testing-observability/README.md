@@ -1,0 +1,2 @@
+# Evaluation, testing, and observability
+Measure task success, tool selection, argument validity, groundedness, policy compliance, latency, token usage, cost, and human intervention. Combine curated test sets, deterministic unit tests, integration tests with fake tools, adversarial tests, and human review. Trace runs with correlation IDs while redacting secrets and sensitive data. Avoid relying on one aggregate score.

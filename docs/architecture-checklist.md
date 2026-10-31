@@ -1,0 +1,12 @@
+# Architecture review checklist
+- [ ] Agent is justified over a deterministic workflow.
+- [ ] Every tool has a narrow typed schema and allowlist.
+- [ ] Authentication/authorization are enforced outside the model.
+- [ ] Tenant boundaries apply before retrieval and tool execution.
+- [ ] Step, time, token, tool, and spend budgets exist.
+- [ ] High-impact actions require explicit action-bound approval.
+- [ ] Tool results are bounded and sanitized.
+- [ ] Secrets/sensitive data are excluded from prompts and logs where possible.
+- [ ] Retry, timeout, idempotency, and failure behavior are defined.
+- [ ] Evaluation includes adversarial and regression cases.
+- [ ] Tracing, metrics, alerting, rollback, and kill switch exist.

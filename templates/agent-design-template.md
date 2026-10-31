@@ -1,0 +1,12 @@
+# Agent design brief
+- Problem and intended user:
+- Why an agent instead of a deterministic workflow?
+- Allowed tools and exact permissions:
+- Trusted and untrusted data sources:
+- State/memory retention and deletion:
+- Maximum steps, time, tool calls, tokens, and spend:
+- Approval gates and stop conditions:
+- Threat model and mitigations:
+- Evaluation dataset and success metrics:
+- Observability, rollback, and kill switch:
+- Known limitations:

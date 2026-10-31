@@ -1,0 +1,12 @@
+# Glossary
+- Agent: model-driven component selecting actions within application controls.
+- Tool: application function exposed through a constrained interface.
+- Orchestrator: component coordinating steps, state, and execution.
+- Run state: temporary state for one execution.
+- Memory: retained information used across steps or sessions.
+- RAG: retrieval-augmented generation.
+- Human-in-the-loop: human review or approval.
+- Prompt injection: untrusted content attempting to override intended behavior.
+- Idempotency: repeating an operation does not create unintended duplicate effects.
+- Trace: correlated record of execution steps and outcomes.
+- Kill switch: mechanism to stop agent execution quickly.

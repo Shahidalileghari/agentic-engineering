@@ -1,0 +1,1 @@
+Keep lessons progressive and accurate. Add runnable examples and tests. Document external services, hardware, and licenses. Never commit credentials, private datasets, user data, or model weights.

@@ -1,0 +1,1 @@
+## 1.0.0 — 2026-10-31\n- Initial agentic AI engineering curriculum, safety-focused labs, deterministic FastAPI simulation, tests, and capstone briefs.

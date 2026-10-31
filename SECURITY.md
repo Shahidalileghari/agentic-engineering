@@ -1,0 +1,1 @@
+Never commit secrets. Enforce authorization outside prompts. Treat retrieved content and tool results as untrusted. Use least privilege, bounded execution, approval gates, tenant isolation, and audit logging.

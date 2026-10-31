@@ -1,0 +1,1 @@
+Comprehensive agentic AI engineering curriculum from fundamentals to production: tool calling, state and memory, planning, workflows, multi-agent systems, RAG, human approval, evaluation, security, observability, and deployment with practical Python labs.

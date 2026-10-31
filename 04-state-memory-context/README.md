@@ -1,0 +1,2 @@
+# State, memory, and context engineering
+Distinguish run state (one execution), conversation history (session), long-term memory (selected durable facts), and external knowledge (retrieved per task). Memory needs purpose limitation, minimization, provenance, access control, retention, correction/deletion, and tenant isolation. Do not silently store secrets or treat retrieved memory as trusted instructions.
