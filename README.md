@@ -13,7 +13,7 @@ A practical, engineering-first curriculum for designing, building, evaluating, s
 - Evaluate task success, tool use, safety, latency, and cost.
 - Secure agents against prompt injection, tool abuse, data leakage, and runaway execution.
 - Deploy with observability, budgets, resilience, and rollback.
-- 
+
 ## Engineering principles
 1. Prefer deterministic workflows when steps are known.
 2. Treat model output as an untrusted proposal, never authorization.
