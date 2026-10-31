@@ -1,4 +1,4 @@
-# Agentic AI Engineering Mastery
+# Agentic AI Engineering 
 
 A practical, engineering-first curriculum for designing, building, evaluating, securing, and operating agentic AI systems—from fundamentals to production architecture.
 
@@ -13,22 +13,7 @@ A practical, engineering-first curriculum for designing, building, evaluating, s
 - Evaluate task success, tool use, safety, latency, and cost.
 - Secure agents against prompt injection, tool abuse, data leakage, and runaway execution.
 - Deploy with observability, budgets, resilience, and rollback.
-
-## Curriculum
-00 Setup and roadmap; 01 Agentic foundations; 02 LLM interfaces and structured output; 03 Tool calling and execution; 04 State, memory, and context; 05 Planning and control loops; 06 Workflows and orchestration; 07 RAG and knowledge agents; 08 Multi-agent systems; 09 Human-in-the-loop; 10 Evaluation and observability; 11 Security and safety; 12 Production operations; 13 Portfolio projects.
-
-## Quick start
-```bash
-python -m venv .venv
-# Windows: .venv\\Scripts\\Activate.ps1
-# macOS/Linux: source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-pytest
-uvicorn examples.api.main:app --reload
-```
-Open `http://127.0.0.1:8000/docs`. The included API is a deterministic simulation: it does not call an LLM or execute external tools.
-
+- 
 ## Engineering principles
 1. Prefer deterministic workflows when steps are known.
 2. Treat model output as an untrusted proposal, never authorization.
@@ -38,5 +23,3 @@ Open `http://127.0.0.1:8000/docs`. The included API is a deterministic simulatio
 6. Require human approval for consequential actions.
 7. Keep audit trails while minimizing sensitive data in logs.
 8. Test adversarial inputs, failure paths, and tenant isolation.
-
-No model weights, provider credentials, or paid integrations are included. Review official documentation and licenses before production use.
